@@ -9,7 +9,7 @@ const Especialista = db.especialista
 //1. Criar especialista
 
 const addEspecialista = async (req, res) => {
-
+   
     let info = {
         nome: req.body.nome,
         tipo: req.body.tipo,
